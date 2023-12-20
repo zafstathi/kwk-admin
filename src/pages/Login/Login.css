@@ -1,0 +1,91 @@
+/* 
+	DO NOT DELETE
+	THIS SCSS/CSS FILE IS USED BY SCSS FILES WITHING THE React/view AND React/layout folders
+	
+ */
+/* QUILLPRO VARIABLES */
+/* 
+	DO NOT DELETE
+	THIS SCSS/CSS FILE IS USED BY SCSS FILES WITHING THE React/view AND React/layout folders
+	
+ */
+/* QUILLPRO MIXINS */
+/* Colors */
+
+.sisu.right-column .signin-left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.signin-logo {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.form-input {
+  width: 80% !important;
+}
+.form-control-parent {
+  width: 100% !important;
+}
+.slug{
+  display: none;
+}
+.sisu.right-column .signin-right-column {
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.form-input{
+  padding-top: 30px !important;
+}
+@media (max-width: 575px) {
+  .sisu.right-column .signin-left-column .signin-logo {
+    display: none;
+  }
+  .form-input{
+    padding-top: 30px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .sisu.right-column .signin-left-column {
+    min-height: fit-content !important;
+  }
+  .form-input{
+    padding-top: 30px !important;
+  }
+  .slug{
+    display: inline-block;
+  }
+}
+@media (min-width: 768px) {
+  .sisu.right-column .signin-left-column {
+    box-shadow: 9px 0 23px rgba(0, 0, 0, 0.09), 5px 0 5px rgba(0, 0, 0, 0.06);
+  }
+  .sisu.right-column .signin-right-column {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .sisu.right-column .signin-left-column {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sisu.right-column .signin-left-column {
+    height: 100vh;
+  }
+}
+
+.error {
+  color: red;
+}

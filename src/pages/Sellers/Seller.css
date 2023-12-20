@@ -1,0 +1,19 @@
+.shops-timings{
+    margin-top: 10px;
+}
+
+.seller-container{
+margin-bottom: 20px;
+}
+
+.seller-container .card{
+    height: 350px;
+}
+@media (max-width: 991px) {
+    .seller-container .card{
+        height: 580px;
+    }
+    /* Yo
+    ur CSS rules for screens with a maximum width of 991px */
+   
+  }

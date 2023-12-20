@@ -1,0 +1,15 @@
+.price-box{
+    height: 35px !important;
+}
+
+.rules-btn{
+    position: absolute;
+        top: 25px;
+    right: 35px;
+}
+.main-content{
+    position: relative;
+}
+.button-accpet {
+    background-color: #fe8801 !important;
+  }

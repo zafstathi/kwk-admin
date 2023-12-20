@@ -1,0 +1,351 @@
+{
+  "buyers": [
+    {
+      "name": "John Doe",
+      "email": "ajdnla@gmail.com",
+      "password": "123321123",
+      "phone": "0303003030301",
+      "address": "House No. 123, Street No. 12, Sector 12",
+      "id": 1
+    },
+    {
+      "name": "John Doe",
+      "email": "jhon@Doe.com",
+      "password": "",
+      "phone": "87120837010",
+      "address": "House No. 342, Street No. 234, Sector 234",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "email": "doe@jhon.com",
+      "phone": "303003030303",
+      "address": "House No. 342, Street No. 234, Sector 234",
+      "password": ""
+    }
+  ],
+  "drivers": [
+    {
+      "id": "1",
+      "firstName": "Fancyb",
+      "middleName": "For",
+      "lastName": "Real",
+      "name": "Fancy For Real",
+      "email": "fancy@4.com",
+      "phone": "0202020200",
+      "address": "Acb street, Cdf city, 1234",
+      "status": "unAprroved",
+      "role": "both",
+      "socialSecurityNumber": "3297469233",
+      "dob": "1994-12-31T19:00:00.000Z",
+      "password": "",
+      "vehicle": {
+        "vehicletype": "Van",
+        "licenseState": "Wisconsin",
+        "licenseNumber": "11212332",
+        "licenseExpiryDate": "1/1/20,20",
+        "autoInsuranceNumber": "3728p13",
+        "autoInsuranceExpiryDate": "1/1/2020",
+        "vehicleMake": "2019",
+        "vehicleColor": "Red",
+        "vehicleNumber": "pk123"
+      }
+    },
+    {
+      "id": "2",
+      "firstName": "Fancy",
+      "middleName": "For",
+      "lastName": "fake",
+      "name": "Fancy For fake",
+      "email": "fancyforreal@gmail.com",
+      "phone": "0310-3142576",
+      "address": "Acb street, Cdf city, 1234",
+      "status": "unAprroved",
+      "role": "both",
+      "socialSecurityNumber": "2834702837",
+      "dob": "1995/01/01",
+      "vehicle": {
+        "id": 1,
+        "vehicletype": "Truck",
+        "licenseState": "California",
+        "licenseNumber": "108273,0123",
+        "licenseExpiryDate": "1/1/20,20",
+        "autoInsuranceNumber": "3728p13",
+        "autoInsuranceExpiryDate": "1/1/2020",
+        "vehicleMake": "2019",
+        "vehicleColor": "Red",
+        "vehicleNumber": "pk123"
+      }
+    },
+    {
+      "id": "3",
+      "firstName": "driver",
+      "middleName": "Abc",
+      "lastName": "Abc",
+      "name": "driver Abc",
+      "email": "fancy@4.com",
+      "phone": "0202020200",
+      "address": "Acb street, Cdf city, 1234",
+      "status": "Approved",
+      "role": "both",
+      "socialSecurityNumber": "2384702833",
+      "dob": "1/1/1995",
+      "vehicle": {
+        "id": 1,
+        "vehicletype": "Truck",
+        "licenseState": "California",
+        "licenseNumber": "108273,0123",
+        "licenseExpiryDate": "1/1/20,20",
+        "autoInsuranceNumber": "3728p13",
+        "autoInsuranceExpiryDate": "1/1/2020",
+        "vehicleMake": "2019",
+        "vehicleColor": "Red",
+        "vehicleNumber": "pk123"
+      }
+    },
+    {
+      "id": "4",
+      "firstName": "CDFB",
+      "middleName": "AbcD",
+      "lastName": "driver123",
+      "name": "CDF driver",
+      "email": "fancyforreal@gmail.com",
+      "phone": "0310-3142576",
+      "address": "Acb street, Cdf city, 1234",
+      "status": "unAprroved",
+      "role": "delivery_driver",
+      "socialSecurityNumber": "02384708237",
+      "dob": "2023-01-07T00:00:00.000Z",
+      "first_name": "CDFB",
+      "middle_name": "AbcD",
+      "last_name": "driver123",
+      "password": "",
+      "phone_number": "0310-3142576",
+      "social_security_number": "02384708237",
+      "vehicle": {
+        "id": 1,
+        "vehicletype": "Truck",
+        "licenseState": "California",
+        "licenseNumber": "108273,0123",
+        "licenseExpiryDate": "1/1/20,20",
+        "autoInsuranceNumber": "3728p13",
+        "autoInsuranceExpiryDate": "1/1/2020",
+        "vehicleMake": "2019",
+        "vehicleColor": "Red",
+        "vehicleNumber": "pk123"
+      }
+    },
+    {
+      "id": "5",
+      "firstName": "some",
+      "middleName": "driver",
+      "lastName": "some",
+      "name": "some driver",
+      "email": "fancy@4.com",
+      "phone": "0202020200",
+      "address": "Acb street, Cdf city, 1234",
+      "status": "Approved",
+      "role": "delivery_driver",
+      "socialSecurityNumber": "23087408",
+      "dob": "1/1/1995",
+      "vehicle": {
+        "vehicletype": "Other",
+        "licenseState": "Alabama",
+        "licenseNumber": "12",
+        "licenseExpiryDate": "1/1/20,20",
+        "autoInsuranceNumber": "3728p13",
+        "autoInsuranceExpiryDate": "1/1/2020",
+        "vehicleMake": "2019",
+        "vehicleColor": "Red",
+        "vehicleNumber": "pk123"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "createdAt": "1/1/2020",
+      "totalAmount": "150",
+      "transactionId": "120938",
+      "buyer": "Ali4",
+      "driver": "Moiz4",
+      "address": "Islamabad4",
+      "orderItems": [
+        {
+          "id": 1,
+          "seller": "wali",
+          "name": "Propane tank Refill",
+          "price": "50",
+          "quantity": "3",
+          "total": "150"
+        },
+        {
+          "id": 2,
+          "seller": "ali",
+          "name": "Propane tank Refill",
+          "price": "50",
+          "quantity": "2",
+          "total": "100"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "createdAt": "03/04/2020",
+      "totalAmount": "75",
+      "transactionId": "120938",
+      "buyer": "Ali",
+      "driver": "Moiz",
+      "address": "Islamabad",
+      "orderItems": [
+        {
+          "id": 1,
+          "seller": "wali1",
+          "name": "Propane tank Refill1",
+          "price": "50",
+          "quantity": "3",
+          "total": "150"
+        },
+        {
+          "id": 2,
+          "seller": "ali1",
+          "name": "Propane tank Refill1",
+          "price": "50",
+          "quantity": "2",
+          "total": "100"
+        }
+      ]
+    }
+  ],
+  "rides": [
+    {
+      "id": 1,
+      "orderId": 212,
+      "buyer": "ali",
+      "driver": "shah",
+      "from": "some street, some town of the this city",
+      "to":"Some other street,some other town of some other city",
+      "status": "In progress"
+    },
+    {
+      "id": 2,
+      "orderId": 312,
+      "buyer": "shah",
+      "driver": "Ali",
+      "from": "street 2 , city 2",
+      "to":"street 3,city 2",
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "orderId": 112,
+      "buyer": "shah",
+      "driver": "Ali",
+      "from": "street 2 , city 2",
+      "to":"street 2,City 3",
+      "status": "Cancelled"
+    }
+  ],
+  "sellers": [
+    {
+      "id": "1",
+      "shopName": "CornersHop",
+      "email": "fancy@4.com",
+      "phone": "123345678123",
+      "address": "Acb street, Cdf city, 1234",
+      "password": ""
+    },
+    {
+      "id": "2",
+      "shopName": "Fancy For fake",
+      "email": "fancyforreal@gmail.com",
+      "phone": "0310-3142576",
+      "address": "Acb street, Cdf city, 1234"
+    },
+    {
+      "id": "3",
+      "shopName": "Shop Abc",
+      "email": "fancy@4.com",
+      "phone": "0202020200",
+      "address": "Acb street, Cdf city, 1234"
+    },
+    {
+      "id": "4",
+      "shopName": "CDF shop",
+      "email": "fancyforreal@gmail.com",
+      "phone": "0310-3142576",
+      "address": "Acb street, Cdf city, 1234"
+    },
+    {
+      "id": "5",
+      "shopName": "some shop",
+      "email": "fancy@4.com",
+      "phone": "0202020200",
+      "address": "Acb street, Cdf city, 1234"
+    },
+    {
+      "id": "6",
+      "shopName": "Fancy For fake",
+      "email": "fancyforreal@gmail.com",
+      "phone": "0310-3142576",
+      "address": "Acb street, Cdf city, 1234"
+    }
+  ],
+  "settings": {
+    "contactInfo": {
+      "email": "admin@gmail.com",
+      "phone": "02020202021"
+    },
+    "appInfo": {
+      "title": "the Kwk app",
+      "slug": "the KWk way"
+    }
+  },
+  "transactions": [
+    {
+      "id": 1,
+      "orderId": 212,
+      "createdAt": "2021-05-05",
+      "recipient": "ali",
+      "recipientRole": "driver",
+      "amount": 100,
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "orderId": 303,
+      "createdAt": "2019-05-05",
+      "recipient": "shah",
+      "recipientRole": "seller",
+      "amount": 150,
+      "status": "Paid"
+    },
+    {
+      "id": 3,
+      "orderId": 123,
+      "createdAt": "2019-03-05",
+      "recipient": "shah2",
+      "recipientRole": "driver",
+      "amount": 150,
+      "status": "Failed"
+    }
+  ],
+  "shops": [
+    {
+      "id": 1,
+      "shopName": "Fancyb",
+      "phone": "87120837010"
+    },
+    {
+      "id": 2,
+      "shopName": "Fancy",
+      "phone": "87120837010"
+    },
+    {
+      "id": 3,
+      "shopName": "Fancy for Fake",
+      "phone": "87120837010"
+    }
+  ]
+}

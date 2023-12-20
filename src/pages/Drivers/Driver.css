@@ -1,0 +1,54 @@
+.statusIcon{
+    position: absolute;
+    top: 0px;
+    right:10px;
+    color: #3ecf3e;
+}
+.statusIcon .batch-icon{
+ color: #3ecf3e;
+}
+.actionIcons{
+     position: absolute;
+     bottom: 0px;
+     right: 10px;
+}
+.actionIcons .batch-icon{
+    padding: 3px;
+}
+.batch-icon-tick{
+    color: #3ecf3e;
+    padding:3px;
+}
+.dp{
+    width: 180px;
+}
+.info-card{
+    height: 200px;
+}
+.license-details{
+    padding-top: 15px
+}
+.license-details .row{
+    padding: 3px;
+}
+.personal-info .row{
+    padding: 3px 0px;
+}
+.btn-staus{
+    margin-left: 10px;
+}
+.batch-icon-pen{
+        font-size: 12px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+@media (max-width: 991px) {
+    .info-card{
+        height: 300px;
+    }
+    .vehicle-info
+    {
+        height: 400px;
+    }
+    /* Your CSS rules for screens with a maximum width of 991px */
+  }

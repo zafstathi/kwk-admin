@@ -1,0 +1,29 @@
+export const transactionData=[
+    {
+        id:1,
+        orderId:212,
+        createdAt:"2021-05-05",
+        recipient:"ali",
+        recipientRole:"driver",
+        amount:100,
+        status:"pending",
+    },
+    {
+        id:2,
+        orderId:303,
+        createdAt:"2019-05-05",
+        recipient:"shah",
+        recipientRole:"seller",
+        amount:150,
+        status:"Paid",
+    },
+    {
+        id:3,
+        orderId:123,
+        createdAt:"2019-03-05",
+        recipient:"shah2",
+        recipientRole:"driver",
+        amount:150,
+        status:"Failed",
+    }
+]

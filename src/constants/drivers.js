@@ -1,0 +1,73 @@
+export const driversData = [
+    {
+      id: "1",
+      firstName: "Fancy",
+      middleName:"For",
+      lastName: "Real",
+      name: "Fancy For Real",
+      email: "fancy@4.com",
+      phone: "0202020200",
+      address: "Acb street, Cdf city, 1234",
+      status: "unAprroved",
+      role: "both",
+      socialSecurityNumber: "3297469233",
+      dob:"1995/01/01"
+    },
+    {
+      id: "2",
+      firstName: "Fancy",
+      middleName:"For",
+      lastName: "fake",
+      name: "Fancy For fake",
+      email: "	fancyforreal@gmail.com",
+      phone: "0310-3142576",
+      address: "Acb street, Cdf city, 1234",
+      status: "unAprroved",
+      role: "both",
+      socialSecurityNumber: "2834702837",
+      dob:"1995/01/01"
+    },
+    {
+      id: "3",
+      firstName: "driver",
+      middleName:"Abc",
+      lastName: "Abc",
+      name: "driver Abc",
+      email: "fancy@4.com",
+      phone: "0202020200",
+      address: "Acb street, Cdf city, 1234",
+      status: "Approved",
+      role: "both",
+      socialSecurityNumber: "2384702833",
+      dob:"1/1/1995"
+    },
+    {
+      id: "4",
+      firstName: "CDF",
+      middleName:"Abc",
+      lastName: "driver",
+      name: "CDF driver",
+      email: "	fancyforreal@gmail.com",
+      phone: "0310-3142576",
+      address: "Acb street, Cdf city, 1234",
+      status: "unAprroved",
+      role: "delivery_driver",
+      socialSecurityNumber: "02384708237",
+      dob:"1/1/1995"
+    },
+    {
+      id: "5",
+      firstName:"some",
+      middleName:"driver",
+      lastName:"some",
+      name: "some driver",
+      email: "fancy@4.com",
+      phone: "0202020200",
+      address: "Acb street, Cdf city, 1234",
+      status: "Approved",
+      role: "delivery_driver",
+      socialSecurityNumber: "23087408",
+      dob:"1/1/1995"
+    },
+  ];
+  
