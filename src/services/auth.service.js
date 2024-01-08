@@ -1,8 +1,5 @@
 import axios from "axios";
 import { API_URL } from "../constants/baseUrl";
-import { useDispatch } from "react-redux";
-import { authActions } from "../slices/auth";
-
 const login = (username, password) => {
   return axios
     .post(API_URL + "auth/login", {

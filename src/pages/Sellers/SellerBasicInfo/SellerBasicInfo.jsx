@@ -60,21 +60,25 @@ function SellerBasicInfo() {
                 <div className="row personal-info">
                   <div className="col-lg-4 col-sm-6 col-md-3">
                     <img
-                      src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
+                      src={
+                        seller.photo_url
+                          ? seller.photo_url
+                          : "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
+                      }
                       className="dp"
                       alt="Logo"
                     />
                   </div>
                   <div className="col-lg-8 col-sm-6 col-md-6 ">
                     <div className="row">
-                    <div className="col-lg-2"></div>
+                      <div className="col-lg-2"></div>
                       <div className="col-sm-6 col-lg-10 col-md-6">
                         <b> {seller.name} </b>
                       </div>
                     </div>
                     <div className="row ">
-                    <div className="col-lg-2"></div>
-                    <div className="col-lg-4 col-sm-4 col-md-4">
+                      <div className="col-lg-2"></div>
+                      <div className="col-lg-4 col-sm-4 col-md-4">
                         <i className="batch-icon batch-icon-user-alt-add"></i>
                         Reviews (215)
                       </div>
@@ -88,39 +92,46 @@ function SellerBasicInfo() {
                           <i className="batch-icon batch-icon-star-alt"></i>
                         </span>
                       </div>
-                      
                     </div>
                     <div className="row">
-                    <div className="col-lg-2"></div>
-                    <div className="col-lg-4 col-sm-4 col-md-3">
+                      <div className="col-lg-2"></div>
+                      <div className="col-lg-4 col-sm-4 col-md-3">
                         <b>Email:</b>
                       </div>
-                      
-                      <div className="col-sm-10 col-lg-6 col-md-9" style={{fontSize:10}}>
-                    {seller.email}
-                 
+
+                      <div
+                        className="col-sm-10 col-lg-6 col-md-9"
+                        style={{ fontSize: 10 }}
+                      >
+                        {seller.email}
                       </div>
                     </div>
                     <div className="row">
-                    <div className="col-lg-2"></div>
-                    <div className="col-lg-4 col-sm-6 col-md-4">
+                      <div className="col-lg-2"></div>
+                      <div className="col-lg-4 col-sm-6 col-md-4">
                         <b>Contact:</b>
                       </div>
-                      
-                      <div className="col-sm-10 col-lg-5 col-md-9" style={{fontSize:12}}> {seller.phone_no}</div>
+
+                      <div
+                        className="col-sm-10 col-lg-5 col-md-9"
+                        style={{ fontSize: 12 }}
+                      >
+                        {" "}
+                        {seller.phone_no}
+                      </div>
                     </div>
                     <div className="row">
-                    <div className="col-lg-2"></div>
-                     <div className="col-lg-4 col-sm-6 col-md-4">
+                      <div className="col-lg-2"></div>
+                      <div className="col-lg-4 col-sm-6 col-md-4">
                         <b>Checkr:</b>
                       </div>
-                      
+
                       <div className="col-sm-10 col-lg-5 col-md-6">
                         <i class="batch-icon batch-icon-tick"></i>
                       </div>
                     </div>
                     <div className="row">
-                    <div className="col-lg-2"></div>
+                      <div className="col-lg-2"></div>
                       <div className="col-sm-7 col-lg-4">
                         <b>Status:</b>
                       </div>
@@ -204,7 +215,9 @@ function SellerBasicInfo() {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 col-sm-12">{shops && <ShopDetail data={shops} />}</div>
+        <div className="col-lg-6 col-sm-12">
+          {shops && <ShopDetail data={shops} />}
+        </div>
       </div>
       {products && <ProductsListing data={products} />}
 
