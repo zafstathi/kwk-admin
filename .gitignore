@@ -5,3 +5,4 @@ build/
 .env.production.local
 .DS_Store
 coverage/
+CREDENTIALS.txt
