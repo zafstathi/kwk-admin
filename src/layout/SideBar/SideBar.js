@@ -149,6 +149,17 @@ class SideBar extends Component {
           <li className="nav-item">
             <NavLink
               exact
+              to="/marketing/applications"
+              activeClassName="active"
+              className="nav-link"
+            >
+              <i className="batch-icon batch-icon-megaphone" />
+              Marketing <span className="sr-only">(current)</span>
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              exact
               to="/setting"
               activeClassName="active"
               className="nav-link"

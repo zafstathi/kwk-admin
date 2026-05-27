@@ -41,6 +41,9 @@ import Transactions from "./pages/Transactions/Transactions";
 import AppMisc from "./pages/AppMisc/AppMisc";
 import AppMiscHome from "./pages/AppMisc/AppMiscHome";
 
+//Marketing----------------
+import MarketingApplications from "./pages/Marketing/MarketingApplications";
+
 //Settings----------------
 import Settings from "./pages/Settings/Settings";
 import SettingsHome from "./pages/Settings/SettingsHome";
@@ -120,6 +123,9 @@ function App() {
             element={<SellerBasicInfoEdit />}
           />
         </Route>
+
+        {/* marketing routes */}
+        <Route path="marketing/applications" element={<MarketingApplications />} />
 
         {/* product routes */}
         <Route path="product/:id" element={<ProductDetail />} />
